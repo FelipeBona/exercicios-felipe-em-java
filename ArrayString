@@ -1,0 +1,19 @@
+public class ArrayString {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String frase = "Hello world";
+        
+//        System.out.println(frase);
+//        System.out.println(frase.charAt(0));
+//        System.out.println(frase.length());
+         int x = 0;
+         while(x < frase.length()){
+           System.out.println(frase.charAt(x));  
+           x = x + 1;
+         }
+    }
+    
+}
